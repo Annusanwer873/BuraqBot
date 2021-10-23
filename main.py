@@ -71,147 +71,147 @@ def processRequest(req):
 
     elif (intent == 'abaya'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/abaya")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/abaya")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Men’s T-Shirts'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/men-Tshirt")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/men-Tshirt")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Full sleeves t shirts'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/fullsleevesmen-Tshirt")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/fullsleevesmen-Tshirt")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Men’s formal shirts'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Mensformalshirts")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/Mensformalshirts")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Men’s Kameez Shalwar'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Menskurta")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/Menskurta")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'BOTTOMS'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/bottom")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/bottom")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Loafers'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Loafers")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/Loafers")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Formal Shoes'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/formal-shoes")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/formal-shoes")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Boots'):
         str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-        str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/boots")
+        str2 = str.format(link="https://buraqstore.herokuapp.com/boots")
 
         fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
         return {
             "fulfillmentText": fulfillmentText}
     elif (intent == 'Lawn Collection'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/lawn-collection")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/lawn-collection")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Embroidered Collection'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/EmbroideredCollection")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/EmbroideredCollection")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Winter Collection'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Wintercollection")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/Wintercollection")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Pret Collection'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/PretCollection")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/PretCollection")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Western Style Kurti'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/WesternStyleKurti")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/WesternStyleKurti")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Bridals'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Bridals")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/Bridals")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Face Care'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/facecare")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/facecare")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Face Cleansers'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/facecleansers")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/facecleansers")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Face Treatment'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/FaceTreatment")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/FaceTreatment")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Hair Care'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/haircare")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/haircare")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Bath & Shower'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Bath&Shower")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/Bath&Shower")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {
                 "fulfillmentText": fulfillmentText}
     elif (intent == 'Body'):
             str = "Please Proceed to our BuraqStore Recommendation engine through given link \n {link} \n Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
-            str2 = str.format(link="https://3da1-119-157-117-3.ngrok.io/Body")
+            str2 = str.format(link="https://buraqstore.herokuapp.com/Body")
 
             fulfillmentText = str2  # "You have selected , Enter 1 for main menu and 0 to exit the chat, Thanks. !!!"
             return {

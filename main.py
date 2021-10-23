@@ -224,7 +224,7 @@ def homePage():
 	return render_template("index.html")
 
 
-@app.route('/templates/abaya', methods=("POST", "GET"))
+@app.route('/abaya', methods=("POST", "GET"))
 def abaya():
     try:
         intent = 'abaya'
